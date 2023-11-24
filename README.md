@@ -16,7 +16,7 @@ Clicking on any search result opens a new page with detailed information about t
 Clicking this button removes the meal from the favorites list.
 # Technologies Used
  HTML, CSS, JavaScript
- Fetch API for meal data
+ Fetch API for meal data and
  Local Storage for persistent data
 
 # How to Use
