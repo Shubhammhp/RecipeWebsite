@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-image: url(New\ Project.jpg);
+    background-size: cover;
+}
+
+#h1{
+    text-align: center;
+    font-size: 7rem;
+    color: rgba(255, 0, 0, 0.8);
+    text-transform: capitalize;
+    letter-spacing: 0.3rem;
+    font-family:'Times New Roman', Times, serif;
+    background-color:rgba(252, 252, 252, 0.15) ;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 5px solid transparent;
+    border-top-color: black;
+    border-right-color: black;
+    
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    /* font-style: italic; */
+    color: rgb(0, 3, 1);
+    margin-left: 120px;
+    border: 1px solid transparent;
+    font-size: 30px;
+    padding: 10px;
+    background-color: none;
+    border-radius: 10px;
+    font-weight: 700;  
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+#app {
+    max-width: 500px;
+    margin: auto;
+}
+
+label {
+    margin-top: 30px;
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 2.4rem;
+    color: whitesmoke;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 10px;
+    height: 30px;
+    display: flex;
+    border-radius: 10px;
+    font-size: 22px;
+    padding: 5px;
+    border: none;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding: 2px;
+    height: inherit;
+    width: 100%;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: 1px solid blue;
+    padding: 5px;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #B6F9C9;
+
+}
+
+.favorite-btn {
+    background-color: #FF8552;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}

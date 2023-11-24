@@ -1,0 +1,21 @@
+#mealDetail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    /* height: 100vh; */
+}
+
+h1{
+    display: inline-block;
+    border: 1px solid transparent;
+    padding: 5px;
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    align-items: center;
+    /* margin-top: 4%; */
+    font-weight: 900;
+}
+

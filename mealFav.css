@@ -1,0 +1,50 @@
+body{
+    background-image: url(Briyani.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    height: fit-content;
+    width: fit-content;
+    border: 5px solid rgb(0, 0, 0);
+    padding: 5px;
+    font-size: 70px;
+    margin: auto;
+    margin-top: 5vh;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+
+#favoriteList{
+    height: 100vh;
+    width: 50vw;
+    margin: auto;
+    display: block;
+    margin-top: 2%;
+}
+
+.remove-btn{
+    height: 90%;
+    width:fit-content;
+    font-size: 12px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 700;
+    padding: 5px;
+    cursor: pointer;
+    /* background-color: transparent; */
+}
+
+.li-Modify{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 800;
+    color: #ff0000;
+    margin: auto;
+}
+
